@@ -1,0 +1,32 @@
+{
+  "name": "mern-react-admin-dashboard",
+  "version": "1.0.0",
+  "description": "mern-react-admin-dashboard",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugurizzet/MERN_React_Admin_Dashboard.git"
+  },
+  "author": "Ugur Izzet Onal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugurizzet/MERN_React_Admin_Dashboard/issues"
+  },
+  "homepage": "https://github.com/ugurizzet/MERN_React_Admin_Dashboard#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^7.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
